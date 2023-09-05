@@ -1,0 +1,25 @@
+{
+  "name": "ai_translator",
+  "version": "1.0.0",
+  "description": "This is project for AI Translator",
+  "main": "script.js",
+  "scripts": {
+    "start": "node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mdadnanhusaain/AI_Translator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mdadnanhusaain/AI_Translator/issues"
+  },
+  "homepage": "https://github.com/mdadnanhusaain/AI_Translator#readme",
+  "dependencies": {
+    "axios": "^1.5.0",
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "uuid": "^9.0.0"
+  }
+}

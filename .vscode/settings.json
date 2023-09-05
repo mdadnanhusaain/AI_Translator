@@ -1,0 +1,6 @@
+{
+  "appService.zipIgnorePattern": ["node_modules{,/**}", ".vscode{,/**}"],
+  "appService.defaultWebAppToDeploy": "/subscriptions/513cf19f-6451-4b3f-8b4d-86af1cdd2368/resourceGroups/AI_Translator/providers/Microsoft.Web/sites/Team-Md-Adnan",
+  "appService.showBuildDuringDeployPrompt": false,
+  "appService.deploySubpath": "Website"
+}

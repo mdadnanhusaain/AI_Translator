@@ -4,16 +4,27 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Translation Request</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>Translation Request</h1>
-    <form id="translation-form">
-      <label for="sentence">Enter a sentence to translate:</label>
-      <input type="text" id="sentence" name="sentence" required />
-      <button type="submit">Translate</button>
-    </form>
-    <div id="translation-result">
-      <!-- Translation result will be displayed here -->
+    <div class="dark">
+      <div class="box">
+        <h1>Translation Request</h1>
+        <br />
+        <form id="translation-form">
+          <label for="sentence" class="sent"
+            >Enter a sentence to translate:</label
+          >
+          <br /><br />
+          <input type="text" id="sentence" name="sentence" required />
+          <br /><br />
+          <button class="button-1" type="submit">Translate</button>
+        </form>
+        <br />
+        <div id="translation-result">
+          <!-- Translation result will be displayed here -->
+        </div>
+      </div>
     </div>
 
     <script src="script.js"></script>

@@ -1,1 +1,4 @@
 EnglishToIndianLang.lnk
+node_modules
+.vscode
+.github

@@ -27,7 +27,9 @@ input {
 body {
   background-image: url("img.jpg");
   padding-top: 3px;
+  background-size: cover;
 }
+
 .dark {
   /* background-color: rgba(20, 20, 20, 0.6); */
   padding: 30px;
